@@ -1,0 +1,83 @@
+body{
+    background-color: orchid;
+}
+
+#content {
+    font-family: 'Georgia', serif;
+}
+
+/* ===== Hero ===== */
+#content .about-hero {
+    padding: 6rem 6% 4rem;
+    text-align: center;
+}
+
+#content .about-title {
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+#content .about-subtitle {
+    font-family: sans-serif;
+    font-size: 1rem;
+    opacity: 0.7;
+}
+
+/* ===== Story Section ===== */
+#content .about-story {
+    padding: 4rem 6%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#content .about-section-title {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+#content .about-text {
+    font-family: sans-serif;
+    font-size: 1rem;
+    line-height: 1.8;
+    opacity: 0.75;
+}
+
+/* ===== Values Section ===== */
+#content .about-values {
+    padding: 4rem 6% 6rem;
+}
+
+#content .values-grid {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 2.5rem;
+}
+
+#content .value-card {
+    padding: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    text-align: center;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+#content .value-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+#content .value-card p {
+    font-family: sans-serif;
+    font-size: 0.95rem;
+    opacity: 0.7;
+}
+
+#content .value-card:hover {
+    transform: translateY(-6px);
+    opacity: 0.85;
+}
+
